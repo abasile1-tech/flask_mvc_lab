@@ -9,7 +9,7 @@
 	<h1>{{ title }}</h1>
 	<ul>
 		{% for task in task_list %}
-			<li>{{ task.title }}</li>
+			<li>{{ task.title }}: <b>{{ task.description }}</b></li>
 		{% endfor %}
 	</ul>
 </body>
